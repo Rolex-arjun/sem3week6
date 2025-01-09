@@ -1,14 +1,31 @@
 /fitness-tracker
   /backend
     /controllers
+      authController.js
+      fitnessController.js
     /models
+      User.js
+      FitnessData.js
     /routes
+      authRoutes.js
+      fitnessRoutes.js
     server.js
   /frontend
+    /public
+      index.html
+      /styles
+        style.css
     /src
       /components
-      /pages
+        Header.js
+        Dashboard.js
+        Login.js
+        Register.js
+        ActivityForm.js
+      /utils
+        api.js
       App.js
       index.js
-  .env
-  package.json
+    /assets
+      /images
+    package.json
