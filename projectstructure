@@ -1,0 +1,14 @@
+/fitness-tracker
+  /backend
+    /controllers
+    /models
+    /routes
+    server.js
+  /frontend
+    /src
+      /components
+      /pages
+      App.js
+      index.js
+  .env
+  package.json
